@@ -5,6 +5,6 @@ language: c
 install:
   - sudo apt-get install mono-devel mono-gmcs nunit-console
 script:
-  - xbuild TestCalculadora/TestCalculadora.sln
-  - nunit-console TestCalculadora/bin/Debug/TestCalculadora.dll
+  - xbuild TestProject2.sln
+  - nunit-console TestProject2/bin/Debug/TestProject2.dll
   
